@@ -1,12 +1,11 @@
 <script>
     import "../app.css";
-    import islogo from "$lib/img/banner.png";
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-
 </script>
 
 
-<Navbar style="font-family: 'Reem Kufi Fun', sans-serif;" >
+
+<Navbar style="font-family: 'Reem Kufi Fun', sans-serif;" class="my-2" >
     <NavBrand href="/">
       <span class="self-center whitespace-nowrap text-2xl md:text-3xl font-semibold dark:text-white">متجر إيـمـان</span>
     </NavBrand>
@@ -19,7 +18,6 @@
     </NavUl>
 </Navbar>
 
-<img src={islogo} class="border-4 rounded-sm border-black flex justify-center items-center mx-auto max-h-60" alt="Imeen Store Logo" />
 
 
 
