@@ -5,7 +5,6 @@
 
 </script>
 
-<img src={islogo} class="border-4 rounded-sm border-black flex justify-center items-center mx-auto max-h-60" alt="Imeen Store Logo" />
 
 <Navbar style="font-family: 'Reem Kufi Fun', sans-serif;" >
     <NavBrand href="/">
@@ -19,6 +18,9 @@
       <NavLi class="md:text-xl" href="/">اتصال</NavLi>
     </NavUl>
 </Navbar>
+
+<img src={islogo} class="border-4 rounded-sm border-black flex justify-center items-center mx-auto max-h-60" alt="Imeen Store Logo" />
+
 
 
 <slot></slot>
