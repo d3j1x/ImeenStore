@@ -1,24 +1,24 @@
 <script>
     import "../app.css";
-    import islogo from "$lib/img/sss.png";
+    import islogo from "$lib/img/banner.png";
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 
 </script>
 
-<img src={islogo} class="flex justify-center items-center mx-auto max-h-28 rounded-full" alt="Imeen Store Logo" />
+<img src={islogo} class="border-4 rounded-sm border-black flex justify-center items-center mx-auto max-h-60" alt="Imeen Store Logo" />
 
 <Navbar style="font-family: 'Reem Kufi Fun', sans-serif;" >
     <NavBrand href="/">
-      <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">متجر إيـمان</span>
+      <span class="self-center whitespace-nowrap text-2xl md:text-3xl font-semibold dark:text-white">متجر إيـمـان</span>
     </NavBrand>
     <NavHamburger  />
-    <NavUl >
-      <NavLi href="/">الرئيسية</NavLi>
-      <NavLi href="/">لباس شرعي</NavLi>
-      <NavLi href="/">مكملات</NavLi>
-      <NavLi href="/">اتصال</NavLi>
+    <NavUl class="text-xl" >
+      <NavLi class="md:text-xl" href="/">الرئيسية</NavLi>
+      <NavLi class="md:text-xl" href="/">لباس شرعي</NavLi>
+      <NavLi class="md:text-xl" href="/">مكملات</NavLi>
+      <NavLi class="md:text-xl" href="/">اتصال</NavLi>
     </NavUl>
-  </Navbar>
+</Navbar>
 
 
 <slot></slot>
